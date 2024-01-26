@@ -1,0 +1,59 @@
+body{
+    background: #0269b3;
+    text-align: center;
+}
+
+.titulo-principal {
+	padding: 80px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.sim, .não{
+    margin: 0 100px;
+    width: 20%;
+    padding: 15px;
+    background: orange;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 5px;
+    top: 110px
+    
+}
+
+.sim:hover{
+    background: darkorange;
+    transform: scale(1.2);
+    
+    
+}
+
+.não:hover{
+    display: none;
+}
+
+.gif{
+    width: 20%;
+    padding: 85px;
+    
+}
+
+.gif2{
+    width: 30%;
+    padding: 85px;
+
+}
+
+@media screen and (max-width: 480px){
+    .titulo-principal{
+        width: auto;
+        text-align: center;
+    }
+
+    .sim, .não{
+        width: auto;
+        align-items: center;
+        margin: 30px;
+    }
+}
